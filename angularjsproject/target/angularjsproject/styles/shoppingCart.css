@@ -1,0 +1,28 @@
+.shoppingCart{
+    width:500px;
+    margin:auto;
+}
+
+.searchBox{
+    width: 13em;
+}
+
+.quantity{
+    width: 4em;
+}
+
+td.col1{
+    width:40%;
+}
+
+td.col2{
+    width:15%;
+}
+
+td.col3{
+    width:20%;
+}
+
+td.col4{
+    width:30%;
+}
