@@ -1,5 +1,7 @@
 # AnjularJS-Shopping-Cart
 
+Live Demo: http://52.14.153.185:8080/angularjsproject/
+
 ## Project Overview
 
 * Apply learned AngularJS in a basic, interactive application. 
