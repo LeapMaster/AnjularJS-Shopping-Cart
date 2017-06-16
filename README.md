@@ -38,6 +38,13 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 |name   | varchar(30)    | YES  |         | NULL | |
 |price  | decimal(13, 2) | YES  |         | NULL | |
 
+### Orders
+| Field    | Type        | Null | Key | Default  | Extra          |
+|---|---|---|---|---|---|
+|id	   | int(11) 	 | NULL | PRIMARY | NULL | auto_increment |
+|name      | varchar(30) | YES  |         | NULL | |
+|datetime  | date        | YES  |         | NULL | |
+
 ### ProductOrders
 | Field | Type           | Null | Key | Default  | Extra          |
 |---|---|---|---|---|---|
@@ -45,10 +52,3 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 |product_name | varchar(30)    | YES  |         | NULL | |
 |total_price  | decimal(13, 2) | YES  |         | NULL | |
 |order_id     | int(11)        | NULL | FOREIGN | NULL | |
-
-### Orders
-| Field    | Type        | Null | Key | Default  | Extra          |
-|---|---|---|---|---|---|
-|id	   | int(11) 	 | NULL | PRIMARY | NULL | auto_increment |
-|name      | varchar(30) | YES  |         | NULL | |
-|datetime  | date        | YES  |         | NULL | |
