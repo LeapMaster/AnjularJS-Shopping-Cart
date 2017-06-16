@@ -29,7 +29,7 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 * Having trouble dynamically binding separate quantity for each row to controller; each order currently only supports a quantity of 1 for each product added until this is fixed
 * Having trouble trying to alternate sort on column ascending/descending each click; ascending/descending checkboxes do the trick, but a more elegant solution would be nice.
 
-## Database
+## Database Plan
 
 ### Products
 | Field | Type           | Null | Key | Default  | Extra          |
