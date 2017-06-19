@@ -23,6 +23,7 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 
 * Allow custom quantity for each product in order
 * Allow order submission and access on admin page
+* Add some basic javascript form validation
 
 ## Current roadblocks
 
