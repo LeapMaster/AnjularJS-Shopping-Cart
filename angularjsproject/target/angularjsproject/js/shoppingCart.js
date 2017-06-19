@@ -10,25 +10,19 @@ app.controller('cartController', function($scope, $http) {
 
     // Add a product to the shopping cart
     $scope.addNewProduct = function(name, quantity, price) {
-        // debug
-        // console.log("adding");
         $scope.cart.products.push(
             {name:name,quantity:quantity,price:price}
         );
     }
 
-    // Hard-coded JSON of products
-    // TODO: Load from database API
-    $scope.products = [
-        {"id":1,"name": "Cooler","price": 19.99},
-        {"id":2,"name": "Umbrella","price": 9.99},
-        {"id":3,"name": "Propane Grill","price": 49.99},
-        {"id":4,"name": "Grill Mat","price": 11.99},
-        {"id":5,"name": "Patio Table","price": 84.99},
-        {"id":6,"name": "Paper Plates (170 ct.)","price": 7.99},
-        {"id":7,"name": "Plastic Utensils (100 ct.)","price": 14.99},
-        {"id":8,"name": "Paper Napkins (500 ct.)","price": 4.99}
-    ];
+
+    $http.get('http://52.14.153.185:8080/angularjsproject/all')
+    // $http.get('http://localhost:8080/all')
+        .then(function(response) {
+            $scope.products = response.data;
+            console.log($scope.products);
+        });
+
 
     // Custom orderBy function, to potentially be expanded for alternating order
     $scope.orderByMe = function(filter) {

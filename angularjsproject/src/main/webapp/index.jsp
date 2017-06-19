@@ -1,20 +1,28 @@
+<%--
+  * Created by Shea Prewett on 6/15/17.
+--%>
 <!DOCTYPE html>
 <html>
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
+
+    <title>Shopping Cart</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="js/shoppingCart.js"></script>
+
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/shoppingCart.css" />
 
-    <title>Shopping Cart</title>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    <%@ page isELIgnored="false" %>
 
 </head>
 
     <body>
 
-        <div ng-app="shoppingCart" ng-controller="cartController" class="shoppingCart">
+        <div ng-app="shoppingCart" ng-controller="cartController" class="appDiv">
 
             <h1>Angular Shopping Cart Demo</h1>
 
@@ -73,6 +81,7 @@
                     <td class="col4"><button type="button" ng-click="removeProduct($index)">Remove</button></td>
                 </tr>
             </table>
+            <a href="${pageContext.request.contextPath}/admin"><h4>Admin Page (Edit Products)</h4></a>
 
         </div>
     </body>

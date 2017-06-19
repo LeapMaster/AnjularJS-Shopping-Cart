@@ -1,0 +1,8 @@
+api/GetAllProducts.class
+api/ProductsAPI.class
+persistence/SessionFactoryProvider.class
+api/InsertProduct.class
+api/DeleteProduct.class
+persistence/ProductDAO.class
+entity/Product.class
+controller/Admin.class

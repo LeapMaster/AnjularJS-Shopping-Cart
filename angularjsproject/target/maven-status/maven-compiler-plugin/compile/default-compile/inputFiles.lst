@@ -1,0 +1,8 @@
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/api/DeleteProduct.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/persistence/SessionFactoryProvider.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/entity/Product.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/api/InsertProduct.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/persistence/ProductDAO.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/controller/Admin.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/api/ProductsAPI.java
+/home/student/AnjularJS-Shopping-Cart/angularjsproject/src/main/java/api/GetAllProducts.java
