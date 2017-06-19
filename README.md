@@ -16,13 +16,13 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 * Products hard-coded, need to set up Java API to handle database management
 * Products can be searched and sorted Ascending/Descending, order can be reset with single button
 * Live shopping cart appears with added products and their info, working button to remove each product from order
+* Java API is implemented, allowing for querying all products, insert, and delete
+* Admin page is built to facilitate easy product data management
 
 ## To Do
 
-* Build Java API for product database, and implement
 * Allow custom quantity for each product in order
-* Allow order submission and database storage
-* Allow product adding/deleting
+* Allow order submission and access on admin page
 
 ## Current roadblocks
 
