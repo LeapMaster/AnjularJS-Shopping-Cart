@@ -13,7 +13,6 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 
 ## Current Progress
 
-* Products hard-coded, need to set up Java API to handle database management
 * Products can be searched and sorted Ascending/Descending, order can be reset with single button
 * Live shopping cart appears with added products and their info, working button to remove each product from order
 * Java API is implemented, allowing for querying all products, insert, and delete
