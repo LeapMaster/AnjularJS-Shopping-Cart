@@ -4,8 +4,8 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 
 ## Project Overview
 
-* Apply learned AngularJS in a basic, interactive application. 
-* Load products JSON from database API
+* Apply learned AngularJS in a basic, interactive application combining new and previous knowledge
+* Load product list in JSON from Java database API
 * Allow searching and sorting on list of products
 * Show live shopping cart of products in order
 * Submitting clears shopping cart and saves order info to database
@@ -13,8 +13,8 @@ Live Demo: http://52.14.153.185:8080/angularjsproject/
 
 ## Current Progress
 
-* Products can be searched and sorted Ascending/Descending, order can be reset with single button
-* Live shopping cart appears with added products and their info, working button to remove each product from order
+* Products can be searched and sorted Ascending/Descending, order can be reset
+* Live shopping cart appears with added products and their info, and each product can individually be removed
 * Java API is implemented, allowing for querying all products, insert, and delete
 * Admin page is built to facilitate easy product data management
 
